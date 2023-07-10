@@ -1,6 +1,10 @@
+import { useEffect } from 'react';
 import { CardSession } from './style';
 
-const models = [
+const modelsPhoto = [
+  {
+    photo: 'img/1.jpeg',
+  },
   {
     photo: 'img/2.jpeg',
   },
@@ -27,12 +31,55 @@ const models = [
   },
 ];
 
+const modelsVideo = [
+  {
+    video: 'img/10.mp4',
+  },
+  {
+    video: 'img/11.mp4',
+  },
+  {
+    video: 'img/17.mp4',
+  },
+];
+
 export function CardModels() {
+  useEffect(() => {
+    function handleClick(event: MouseEvent) {
+      const videoId = (event.target as HTMLElement).id;
+      const video = document.getElementById(videoId) as HTMLMediaElement | null;
+
+      if (video !== null && video.paused) {
+        video.play();
+        video.classList.add('playing');
+      } else {
+        video?.pause();
+        video?.classList.remove('playing');
+      }
+    }
+
+    const videoElements = document.querySelectorAll('video');
+    videoElements.forEach((video) => {
+      video.addEventListener('click', handleClick);
+    });
+
+    return () => {
+      videoElements.forEach((video) => {
+        video.removeEventListener('click', handleClick);
+      });
+    };
+  }, []);
+
   return (
     <section aria-label="card dos modelos de expositores">
-      {models.map((product, index) => (
+      {modelsPhoto.map((photo, index) => (
         <CardSession key={index} aria-label="card dos modelos de expositores">
-          <img src={product.photo} alt="Modelos de expositores" />
+          <img src={photo.photo} alt="Modelos de expositores" />
+        </CardSession>
+      ))}
+      {modelsVideo.map((video, index) => (
+        <CardSession key={index} aria-label="card dos modelos de expositores">
+          <video id={`video-${index}`} src={video.video} muted></video>
         </CardSession>
       ))}
     </section>

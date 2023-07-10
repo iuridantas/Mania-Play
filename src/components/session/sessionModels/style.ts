@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const ProductAndServiceSession = styled.div`
-  margin-top: 10px;
+   margin: 10px 0 20px 0;
+  
   
   h2 {
     font-size: 2rem;

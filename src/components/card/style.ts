@@ -10,6 +10,12 @@ export const CardSession = styled.div`
     margin: 5px auto;
   }
 
+  video {
+    height: 600px;
+    margin: 5px auto;
+    cursor: pointer;
+  }
+
   @media (max-width: 600px) {
     margin: 5px auto;
 
