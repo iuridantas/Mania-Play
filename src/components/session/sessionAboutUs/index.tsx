@@ -2,7 +2,7 @@ import { AboutUsSession } from './style';
 
 export function SessionAboutUs() {
   return (
-    <section aria-label="Sobre Nós" id="sobre-nos">
+    <section aria-label="Sobre Nós">
       <AboutUsSession>
         <h2>Sobre Nós</h2>
         <p>

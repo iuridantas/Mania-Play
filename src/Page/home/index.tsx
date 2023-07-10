@@ -1,5 +1,6 @@
 import { Container, WhatsAppButton, WhatsApp } from './style';
 import { SessionAboutUs } from '../../components/session/sessionAboutUs';
+import { SessionModels } from '../../components/session/sessionModels';
 
 export function Home() {
   return (
@@ -17,6 +18,7 @@ export function Home() {
         />
       </WhatsAppButton>
       <SessionAboutUs />
+      <SessionModels/>
     </Container>
   );
 }
