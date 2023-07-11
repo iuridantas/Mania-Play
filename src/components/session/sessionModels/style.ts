@@ -18,6 +18,7 @@ export const ModelsSession = styled.div`
   @media (max-width: 600px) {
     h2 {
       font-size: 1.4rem;
+      margin: auto;
     }
 
     section {
