@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
-export const ProductAndServiceSession = styled.div`
-   margin: 10px 0 20px 0;
-  
-  
+export const ModelsSession = styled.div`
+  margin: 10px 0 20px 0;
+
   h2 {
     font-size: 2rem;
     text-align: center;
