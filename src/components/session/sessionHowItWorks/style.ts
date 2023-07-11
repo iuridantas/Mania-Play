@@ -27,6 +27,7 @@ export const HowItWorksSession = styled.div`
     h2 {
       font-size: 1.4rem;
       grid-column: 1;
+      margin: 0 0 10px 0;
     }
 
     h3 {
