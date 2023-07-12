@@ -5,8 +5,8 @@ export const CardSession = styled.div`
   flex-direction: column;
 
   img {
-    width: 450px;
-    height: 450px;
+    width: 460px;
+    height: 460px;
     margin: 5px auto;
   }
 

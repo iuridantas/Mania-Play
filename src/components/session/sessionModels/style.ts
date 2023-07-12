@@ -11,7 +11,7 @@ export const ModelsSession = styled.div`
 
   section {
     display: grid;
-    grid-template-columns: repeat(3, 520px);
+    grid-template-columns: repeat(3, 480px);
     gap: 10px;
   }
 
