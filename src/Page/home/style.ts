@@ -22,8 +22,8 @@ export const WhatsAppButton = styled.a`
 `;
 
 export const WhatsApp = styled(ImWhatsapp)`
-  font-size: 50px;
-  border-radius: 30px;
+  font-size: 65px;
+  border-radius: 5px;
   padding: 3px;
   color: white;
   background-color: green;
