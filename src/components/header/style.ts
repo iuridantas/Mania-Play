@@ -1,18 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100%;
   border-bottom: dotted;
 
-  img {
+  img{
     width: 100%;
-    height: 460px;
   }
 
   @media (max-width: 600px) {
     img {
-    width: 100%;
-    height: auto;
-  }
+      width: 100vw;
+      height: auto;
+    }
   }
 `;
