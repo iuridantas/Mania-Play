@@ -4,6 +4,7 @@ export const AboutUsSession = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 10px;
+  max-width: 1440px;
 
   h2 {
     font-size: 2rem;

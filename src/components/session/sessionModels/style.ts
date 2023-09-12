@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const ModelsSession = styled.div`
-  margin: 10px 0 20px 0;
+  margin: 10px auto;
+  max-width: 1440px;
 
   h2 {
     font-size: 2rem;
@@ -10,9 +11,10 @@ export const ModelsSession = styled.div`
   }
 
   section {
-    display: grid;
-    grid-template-columns: repeat(3, 480px);
-    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
 
   @media (max-width: 600px) {
@@ -22,8 +24,7 @@ export const ModelsSession = styled.div`
     }
 
     section {
-      display: flex;
-      flex-direction: column;
+      gap: 10px;
     }
   }
 `;

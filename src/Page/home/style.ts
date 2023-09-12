@@ -12,7 +12,7 @@ export const Container = styled.div`
 export const WhatsAppButton = styled.a`
   position: fixed;
   top: 91%;
-  left: 96%;
+  left: 90%;
   z-index: 9999;
 
   @media (max-width: 600px) {

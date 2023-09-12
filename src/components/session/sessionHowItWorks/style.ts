@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const HowItWorksSession = styled.div`
-  margin-top: 10px;
+  margin: 10px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 1440px;
 
   h2 {
     font-size: 2rem;
