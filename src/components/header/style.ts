@@ -7,7 +7,7 @@ export const Container = styled.div`
     width: 100%;
   }
 
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     img {
       width: 100vw;
       height: auto;

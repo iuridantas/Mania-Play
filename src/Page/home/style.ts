@@ -15,7 +15,7 @@ export const WhatsAppButton = styled.a`
   left: 90%;
   z-index: 9999;
 
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     top: 85%;
     left: 2%;
   }
@@ -28,7 +28,7 @@ export const WhatsApp = styled(ImWhatsapp)`
   color: white;
   background-color: green;
 
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     font-size: 35px;
   }
 `;

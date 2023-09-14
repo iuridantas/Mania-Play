@@ -16,7 +16,7 @@ export const CardSession = styled.div`
     cursor: pointer;
   }
 
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     margin: 5px auto;
 
     img {

@@ -7,36 +7,36 @@ export const HowItWorksSession = styled.div`
   max-width: 1440px;
 
   h2 {
-    font-size: 2rem;
+    font-size: 32px;
     text-align: center;
     grid-column: 1 / span 2;
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 24px;
     text-align: center;
   }
 
   p {
     margin: 5px 20px;
     text-align: justify;
-    font-size: 1.4rem;
+    font-size: 22px;
   }
 
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     grid-template-columns: 1fr;
     h2 {
-      font-size: 1.4rem;
+      font-size: 22px;
       grid-column: 1;
       margin: 0 0 10px 0;
     }
 
     h3 {
-      font-size: 1.1rem;
+      font-size: 17px;
     }
 
     p {
-      font-size: 1rem;
+      font-size: 16px;
     }
   }
 `;

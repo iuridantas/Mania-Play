@@ -7,24 +7,24 @@ export const AboutUsSession = styled.div`
   max-width: 1440px;
 
   h2 {
-    font-size: 2rem;
+    font-size: 32px;
     text-align: center;
   }
 
   p {
     margin: 10px 20px;
     text-align: justify;
-    font-size: 1.4rem;
+    font-size: 22px;
   }
 
-  @media (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     h2 {
-      font-size: 1.4rem;
+      font-size: 22px;
       margin: auto;
     }
 
     p {
-      font-size: 1rem;
+      font-size: 16px;
     }
   }
 `;
