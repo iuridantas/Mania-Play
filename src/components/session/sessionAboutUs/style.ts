@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const AboutUsSession = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 10px auto;
+  margin: 10px auto 0 auto;
   max-width: 1440px;
 
   h2 {
