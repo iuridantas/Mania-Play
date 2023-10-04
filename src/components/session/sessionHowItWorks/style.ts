@@ -23,7 +23,7 @@ export const HowItWorksSession = styled.div`
     font-size: 22px;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     grid-template-columns: 1fr;
 
     h2 {
