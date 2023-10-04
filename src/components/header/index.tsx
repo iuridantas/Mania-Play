@@ -33,7 +33,7 @@ export function Header() {
     };
   }, []);
 
-  const isMobile = window.innerWidth <= 600;
+  const isMobile = window.innerWidth <= 768;
   const images = isMobile ? mobileImages : desktopImages;
 
   return (

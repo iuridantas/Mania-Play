@@ -23,9 +23,9 @@ export const HowItWorksSession = styled.div`
     font-size: 22px;
   }
 
-  @media only screen and (max-width: 600px) {
-    display: flex;
-  flex-direction: column;
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+
     h2 {
       font-size: 22px;
       grid-column: 1;
